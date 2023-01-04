@@ -22,7 +22,11 @@ header {
 form {
   position: absolute;
   bottom: -10px;
+  display: flex;
+  gap:.6em;
 }
+
+
 
 .title {
   letter-spacing: 4px;
@@ -36,4 +40,14 @@ a {
 
 a:hover, a:active {
     color: rgb(191, 43, 43);
+}
+
+@media only screen and (max-width: 600px) {
+
+  .title {
+    font-size: 1.7em;
+  }
+  input[type=text] {
+    width: 65%;
+  }
 }
