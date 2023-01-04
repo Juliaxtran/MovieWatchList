@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    background: #000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url('bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    height: 20vh;
+    font-family: 'Bungee', cursive;
+    position: relative;
+}
+
+form {
+  position: absolute;
+  bottom: -10px;
+}
+
+.title {
+  letter-spacing: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+a:hover, a:active {
+    color: rgb(191, 43, 43);
+}
