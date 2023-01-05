@@ -51,3 +51,38 @@ a:hover, a:active {
     width: 65%;
   }
 }
+
+/* Formating movie poster */
+
+/* Typography */
+.movie-title {
+  font-family: 'Inter', sans-serif;
+  
+}
+
+.movie-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.movie-item {
+  display: flex;
+  padding: 2em;
+  gap: 1em;
+  max-width: 800px;
+
+}
+
+.movie-img {
+  width: 150px;
+}
+
+.movie-info-top {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+
+}

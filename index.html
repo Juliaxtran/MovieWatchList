@@ -1,26 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Quantico&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Inter&family=Quantico&display=swap" rel="stylesheet">
   <title>Movie Watch List</title>
 </head>
+
 <body>
- <header>
-  <h1 class="title">Find Your Film </h1>
-  <a href="./watch.html">Watch List</a>
-  <form class="form-inline">
-    <input type="text" id="search-bar" class="form-control mr-sm=2" placeholder="Search for a movie" >
-    <button class="btn btn-light " type="submit">Search</button>
-  </form>
- </header>
+  <header>
+    <h1 class="title">Find Your Film </h1>
+    <a href="./watch.html">Watch List</a>
+    <form class="form-inline">
+      <input type="text" id="search-bar" class="form-control mr-sm=2" placeholder="Search for a movie">
+      <button class="btn btn-light " type="submit">Search</button>
+    </form>
+  </header>
+  <main>
+    <div class="movie-list">
+      <div class="movie-item">
+        <img class="movie-img" src="https://image.tmdb.org/t/p/w500/6CoRTJTmijhBLJTUNoVSUNxZMEI.jpg" alt="movie poster"/>
+        <div class="movie-info">
+          <div class="movie-info-top">
+            <h3 class="movie-title">Money Heist</h3>
+            <div class="rating">
+              <span style="color:rgb(222, 222, 33)">&#9733;</span>
+              <span class="movie-rating">8.1</span>
+            </div>
+
+          </div>
+          <div class="movie-info-bottom">
+            <p class="movie-time">164 min</p>
+            <p class="movie-category">Action, Drama, Mystery</p>
+            <div class="watchlist">
+              <span class="watchlist-btn"></span>
+              <p>Watchlist</p>
+            </div>
+          </div>
+          <p class="overview">
+            A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator.
+          </p>
+
+        </div>
+        </div>
+
+    </div>
+  </main>
 
 </body>
-<script  type='module' src="app.js"></script>
+<script type='module' src="app.js"></script>
+
 </html>
